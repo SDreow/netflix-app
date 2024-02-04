@@ -1,10 +1,10 @@
-
+import Movie from "./components/movie"
 
 
 const App = () => {
 
   return<>
-    <h1>Test</h1>
+    <Movie />
   </>
 }
 

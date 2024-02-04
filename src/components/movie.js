@@ -5,10 +5,10 @@ const movie = () => {
 
     return <div>
         {
-            data.map( () => {
+            data.map( (oneMovie) => {
                 const {id, image, title, age, tags, description} = oneMovie
 
-                return <div>
+                return <div key={id}>
                     <img src={image} alt="" />
                     <h2>{title}</h2>
                     <p>{age}</p>
