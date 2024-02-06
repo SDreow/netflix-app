@@ -1,0 +1,9 @@
+.main-reload-all {
+    color: white;
+    background-color: #db0000;
+    font-size: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    margin-left: 20px;
+}

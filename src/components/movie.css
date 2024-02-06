@@ -34,3 +34,14 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.button-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-delete-button,
+.main-reload-all {
+    border-radius: 10px;
+}
